@@ -1,7 +1,7 @@
-public class SelectionSort  implements sortingContext{
+public class selectionSort implements SortingStrategy{
 
-	@override 
-	void sort(int[] array){
+	@Override 
+	public void sort(int[] array){
 		int n = array.length;
 		
 		for(int i = 0; i < (n - 1);i++){

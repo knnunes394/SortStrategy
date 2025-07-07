@@ -1,5 +1,6 @@
-class BubbleSort {
+class BubbleSort implements sortingContext{
 
+	@override 
 	static void bubbleSort(int[] array){
 		int n = array.length;
 		

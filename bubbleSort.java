@@ -1,7 +1,7 @@
 class BubbleSort implements sortingContext{
 
 	@override 
-	static void bubbleSort(int[] array){
+	static void sort(int[] array){
 		int n = array.length;
 		
 		for(int i = 0; i < (n - 1);i++){

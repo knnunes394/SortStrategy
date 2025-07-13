@@ -1,6 +1,6 @@
-class BubbleSort implements sortingContext{
+class BubbleSort implements SortingStrategy{
 
-	@override 
+	@Overriderride 
 	void sort(int[] array){
 		int n = array.length;
 		

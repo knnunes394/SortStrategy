@@ -2,11 +2,11 @@ public class client {
 
 
 	public static void main(String[] args){
-		SortingContext sortingStrategy = new SortingContext(new selectionSort());
+		SortingContext sort1 = new SortingContext(new BubbleSort());
 		int[] array1 = {5,2,9,1,5};
-		sortingStrategy.performSorting(array1);
+		sort1.performSorting(array1);
 		for(int i = 0; i < array1.length; i++){
-			System.out.print("Hi" + array1[i]);
+			System.out.println(array1[i]);
 		}
 		
 	}
